@@ -126,12 +126,13 @@ public class CalculadoraController {
                 setText(value);
             }
         }else if(!Texto.contains(",") && value.matches("^[\\.\\,]")){
-            setText(",");
+            setText(".");
         }
     }
 
     private void setText(String valor){
         Texto = (Texto.equals("0") ? "" : Texto);
+
         if (Texto.length() <= 13){
             Texto = Texto.concat(valor);
             txt_valor.setText(Texto.toUpperCase());
@@ -194,6 +195,11 @@ public class CalculadoraController {
                 case "=":
                     Texto = TextoAnt;
                     break;
+            }
+            double valueDouble = Double.parseDouble(Texto);
+            if(Math.rint(valueDouble) == valueDouble){
+                int inteiro = (int)valueDouble;
+                Texto = Integer.toString(inteiro);
             }
                 operationUsed = operator;
                 TextoAnt = Texto;
