@@ -74,7 +74,7 @@ public class CalculadoraController {
     public void initialize(){
         convert_from.setValue("Decimal");
         convert_to.setValue("Decimal");
-        btn_ac.setOnAction(actionEvent -> { Texto = "0"; txt_valor.setText(Texto); });
+        btn_ac.setOnAction(actionEvent -> { Texto = "0"; txt_valor.setText(Texto); TextoAnt = ""; operationUsed = ""; textoConvert = "";});
         btn_3.setOnAction(actionEvent -> { validText("3"); });
         btn_2.setOnAction(actionEvent -> { validText("2"); });
         btn_1.setOnAction(actionEvent -> { validText("1"); });

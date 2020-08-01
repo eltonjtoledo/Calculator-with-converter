@@ -218,7 +218,7 @@
             <String fx:value="dbl_h" />
          </styleClass>
       </Button>
-      <Button fx:id="btn_mult" alignment="CENTER" contentDisplay="CENTER" layoutX="253.0" layoutY="434.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="71.0" text="x" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+      <Button fx:id="btn_cross" alignment="CENTER" contentDisplay="CENTER" layoutX="253.0" layoutY="434.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="71.0" text="x" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4">
          <font>
             <Font size="24.0" />
          </font>
