@@ -218,6 +218,16 @@
             <String fx:value="dbl_h" />
          </styleClass>
       </Button>
+      <Button fx:id="btn_mult" alignment="CENTER" contentDisplay="CENTER" layoutX="253.0" layoutY="434.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="71.0" text="x" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="btn_base" />
+            <String fx:value="btn_operation" />
+            <String fx:value="dbl_h" />
+         </styleClass>
+      </Button>
       <Button fx:id="btn_div" alignment="CENTER" contentDisplay="CENTER" layoutX="254.0" layoutY="185.0" mnemonicParsing="false" text="/" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3">
          <font>
             <Font size="24.0" />
